@@ -1,0 +1,11 @@
+﻿빌드 시작: 2017-03-14 오후 8:18:09
+     1>2 노드의 "C:\Users\SoMa\myworkspace\ms_caffe_git\caffe-master\caffe-master\windows\my_caffe\my_caffe.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\SoMa\myworkspace\ms_caffe_git\caffe-master\caffe-master\include" /I"C:\Users\SoMa\myworkspace\ms_caffe_git\caffe-master\caffe-master\windows\my_caffe\\..\..\src" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt sss.cpp
+         sss.cpp
+     1>C:\Users\SoMa\myworkspace\ms_caffe_git\caffe-master\caffe-master\include\caffe/common.hpp(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'boost/shared_ptr.hpp': No such file or directory
+     1>"C:\Users\SoMa\myworkspace\ms_caffe_git\caffe-master\caffe-master\windows\my_caffe\my_caffe.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.21
